@@ -1,0 +1,574 @@
+{
+  "cards": {
+    "card1": {
+      "name": "Amulet of Air",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 2
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card2": {
+      "name": "Amulet of Fire",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 2,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card3": {
+      "name": "Amulet of Earth",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 2,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card4": {
+      "name": "Amulet of Water",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 2,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card5": {
+      "name": "Balance of Ishtar",
+      "points": 4,
+      "energyCost": false,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": true,
+      "crystalsCost": {
+        "2P": 2,
+        "3P": 2,
+        "4P": 2
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card6": {
+      "name": "Staff of Spring",
+      "points": 9,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 3,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "INVOKE",
+      "type": "OBJECT"
+    },
+    "card7": {
+      "name": "Temporal Boots",
+      "points": 8,
+      "energyCost": false,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": true,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card8": {
+      "name": "Purse of Io",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 1
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "CRYSTAL",
+      "type": "OBJECT"
+    },
+    "card9": {
+      "name": "Divine Chalice",
+      "points": 10,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 1,
+        "EARTH": 1,
+        "AIR": 1
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card10": {
+      "name": "Syllas the Faithful",
+      "points": 14,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 3,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "FAMILIAR"
+    },
+    "card11": {
+      "name": "Figirm the Avaricious",
+      "points": 7,
+      "energyCost": false,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": true,
+      "crystalsCost": {
+        "2P": 3,
+        "3P": 6,
+        "4P": 9
+      },
+      "effectType": "SEASON",
+      "type": "FAMILIAR"
+    },
+    "card12": {
+      "name": "Naria the Prophetess",
+      "points": 8,
+      "energyCost": false,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": true,
+      "crystalsCost": {
+        "2P": 3,
+        "3P": 3,
+        "4P": 3
+      },
+      "effectType": "DEFAULT",
+      "type": "FAMILIAR"
+    },
+    "card13": {
+      "name": "Wondrous Chest",
+      "points": 4,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 1,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "END_ROUND",
+      "type": "OBJECT"
+    },
+    "card14": {
+      "name": "Beggar's Horn",
+      "points": 8,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 1,
+        "AIR": 1
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "END_ROUND",
+      "type": "OBJECT"
+    },
+    "card15": {
+      "name": "Dice of Malice",
+      "points": 8,
+      "energyCost": false,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": true,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card16": {
+      "name": "Kairn the Destroyer",
+      "points": 9,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 3
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "FAMILIAR"
+    },
+    "card17": {
+      "name": "Amsung Longneck",
+      "points": 8,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 1,
+        "EARTH": 0,
+        "AIR": 1
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "FAMILIAR"
+    },
+    "card18": {
+      "name": "Bespelled Grimoire",
+      "points": 8,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 1,
+        "EARTH": 1,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card19": {
+      "name": "Ragfield's Helm",
+      "points": 10,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 3
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "END_GAME",
+      "type": "OBJECT"
+    },
+    "card20": {
+      "name": "Hand of Fortune",
+      "points": 9,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 0,
+        "EARTH": 1,
+        "AIR": 1
+      },
+      "crystalCost": true,
+      "crystalsCost": {
+        "2P": 3,
+        "3P": 3,
+        "4P": 3
+      },
+      "effectType": "INVOKE",
+      "type": "OBJECT"
+    },
+    "card21": {
+      "name": "Lewis Grisemine",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 1
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "FAMILIAR"
+    },
+    "card22": {
+      "name": "Runic Cube of Eolis",
+      "points": 30,
+      "energyCost": false,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": true,
+      "crystalsCost": {
+        "2P": 20,
+        "3P": 20,
+        "4P": 20
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card23": {
+      "name": "Potion of Power",
+      "points": 0,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 2,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card24": {
+      "name": "Potion of Dreams",
+      "points": 0,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 0,
+        "AIR": 2
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card25": {
+      "name": "Potion of Knowledge",
+      "points": 0,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 2,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card26": {
+      "name": "Potion of Life",
+      "points": 0,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 0,
+        "EARTH": 2,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card27": {
+      "name": "Hourglass of Time",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 1,
+        "EARTH": 1,
+        "AIR": 1
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "SEASON",
+      "type": "OBJECT"
+    },
+    "card28": {
+      "name": "Scepter of Greatness",
+      "points": 8,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 1,
+        "EARTH": 1,
+        "AIR": 1
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card29": {
+      "name": "Olad's Blessed Statue",
+      "points": 0,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 0,
+        "WATER": 3,
+        "EARTH": 0,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "DEFAULT",
+      "type": "OBJECT"
+    },
+    "card30": {
+      "name": "Yjang's Forgotten Vase",
+      "points": 6,
+      "energyCost": true,
+      "energiesCost": {
+        "FIRE": 1,
+        "WATER": 1,
+        "EARTH": 1,
+        "AIR": 0
+      },
+      "crystalCost": false,
+      "crystalsCost": {
+        "2P": 0,
+        "3P": 0,
+        "4P": 0
+      },
+      "effectType": "INVOKE",
+      "type": "OBJECT"
+    }
+  }
+}
